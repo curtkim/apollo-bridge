@@ -1,0 +1,9 @@
+[build_requires]
+protoc_installer/3.9.1@bincrafters/stable
+
+[requires]
+boost_asio/1.69.0@bincrafters/stable
+protobuf/3.9.1@bincrafters/stable
+
+[generators]
+cmake
