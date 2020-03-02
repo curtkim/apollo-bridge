@@ -2,7 +2,7 @@
 protoc_installer/3.9.1@bincrafters/stable
 
 [requires]
-boost_asio/1.69.0@bincrafters/stable
+boost/1.71.0@conan/stable
 protobuf/3.9.1@bincrafters/stable
 
 [generators]

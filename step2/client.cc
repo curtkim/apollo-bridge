@@ -157,7 +157,7 @@ void Client::handle_register_desc()
 
     if (complete)
     {
-        std::cout << "OP_REGISTER_DESC, count = " << count;
+        std::cout << "OP_REGISTER_DESC, count = " << count << std::endl;
 
         //auto factory = apollo::cyber::message::ProtobufFactory::Instance();
         for (const auto& s : desc)
